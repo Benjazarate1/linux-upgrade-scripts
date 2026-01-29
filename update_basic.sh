@@ -1,8 +1,11 @@
 #!/bin/bash
+set -euo pipefail
 echo "Hora actual:"
 date
 echo "Actualizando sistema..."
-sudo apt update
-sudo apt upgrade -y
+PKG_update="brew update"
+PKG_upgrade="brew upgrade"
+$PKG_update
+$PKG_upgrade
 echo "Listo."
 
