@@ -1,61 +1,46 @@
-# Linux Update Scritps
+# Linux & macOS System Update Scripts
 
-This respository contains three simple Bash scripts created as learning project Linux, Bash scripting, and Git.
+Automated system update and cleanup scripts for Linux (APT) and macOS (Homebrew), written in Bash and progressively structured from basic to advanced levels.
 
-The main goal is to automate the system update process and understand how basic automation works in Linux
+## Project Structure
 
-________
+- update_basic.sh → Simple update script
+- update_intermediate.sh → Improved structure and cleanup logic
+- update_advanced.sh → Modular script with functions and OS detection
 
-## What do these scritps do?
+## Features
 
-Each script:
+- System update automation
+- Package upgrade automation
+- System cleanup
+- macOS & Linux OS detection
+- Modular design using Bash functions
 
-- Shows the current date and time
-- Runs `apt update`
-- Runs `apt upgrade -y`
+## Requirements
 
-They are the same idea implemented in three differente ways, with increasing clarity and structure
+### macOS:
+- Homebrew installed
 
-_______
+### Linux:
+- Debian / Ubuntu based systems with apt
 
-## Scripts
+## Usage
 
-### update_basic_sh
-A very simple script with minimal output
-Basic commands.
-
-### update_intermediate_sh
-Includes clearer messages and better output
-
-### update_advanced_sh
-Includes better visual structure and ouput
-
-## How to use
-
-1. Clone the repository:
 ```bash
-   git clone https://github.com/Benjazarate1/linux-upgrade-scripts.git
-
-2. Enter the directory
-   cd linux-update-scripts
-
-3. Give execution permissions:
-   chmod +x *.sh
-
-4. Run any script
-  ./update_basic_sh
-  ./update_intermediate_sh
-  ./update_advanced_sh
+chmod +x *.sh
+./update_basic.sh
+./update_intermediate.sh
+./update_advanced.sh
+```
 
 
-
-Purpose
-
-This project was created for learning purposes, to practice:
--Linux terminal usage
--Bash scripting basics
--Automation concepts
--Git and GitHub workflow
+## Learning Goals
+This project was created to practice:
+	•	Bash scripting
+	•	Functions and modular design
+	•	OS detection logic
+	•	Automation workflows
+	•	Git & GitHub version control
 
 
 Author
