@@ -32,13 +32,13 @@ print_header(){
 }
 
 update_system(){
-    echo "System updating"
+    echo "System updating..."
     $PKG_UPDATE
     $PKG_UPGRADE
 }
 
 cleanup_system(){
-    echo "Cleaning"
+    echo "Cleaning..."
     $PKG_CLEANUP
 }
 
@@ -53,3 +53,4 @@ main(){
 }
 
 main
+

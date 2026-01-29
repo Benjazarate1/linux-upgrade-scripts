@@ -17,7 +17,7 @@ Automated system update and cleanup scripts for Linux (APT) and macOS (Homebrew)
 - Modular design using Bash functions
 
 ## Requirements
-
+ 
 ### macOS:
 - Homebrew installed
 
